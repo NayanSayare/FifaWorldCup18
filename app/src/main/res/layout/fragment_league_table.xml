@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LeagueTableFragment"
+    android:id="@+id/leagueTableFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="8"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group A"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/Arecyclerview"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group B"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/Brecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group C"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/Crecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group D"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/Drecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group E"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/Erecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group F"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/Frecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group G"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/Grecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Group H"
+                android:textAllCaps="false"
+                android:textSize="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/Hrecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
